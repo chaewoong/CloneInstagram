@@ -1,12 +1,11 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { Mainheader } from "../components";
 
-const About = () => {
+const Shop = () => {
   return (
-    <>
-      <Text>어바웃화면입니당</Text>
-    </>
+    <View style={styles.container}>
+      <Text>쇼핑 화면</Text>
+    </View>
   );
 };
 
@@ -19,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default About;
+export default Shop;

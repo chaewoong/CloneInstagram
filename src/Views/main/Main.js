@@ -1,14 +1,14 @@
 import React from "react";
-import { View, Text, StyleSheet, Button } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
-const Home = ({ navigation }) => {
+const Main = () => {
   return (
     <View style={styles.container}>
-      <Text>홈화면입니당</Text>
-      <Button title="이동하기" onPress={() => navigation.push("About")} />
+      <Text>메인 화면</Text>
     </View>
   );
 };
+
 const styles = StyleSheet.create({
   container: {
     display: "flex",
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Main;
